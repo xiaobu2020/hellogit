@@ -8,4 +8,15 @@ public class HelloGit {
         System.out.println("hello git");
     }
 
+    public static String getMaxString(String str){
+        char[] chars = str.toCharArray();
+        StringBuilder sb = new StringBuilder();
+        for (char aChar : chars) {
+            if (aChar == 'a') {
+                sb.append("a");
+            }
+        }
+        return sb.toString();
+    }
+
 }
