@@ -6,6 +6,8 @@ public class HelloGit {
 
     public static void main(String[] args) {
         System.out.println("hello git");
+        String str = "asdjnwadalwnad";
+        System.out.println(getMaxString(str));
     }
 
     public static String getMaxString(String str){
